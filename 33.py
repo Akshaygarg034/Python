@@ -1,5 +1,7 @@
 # ***************************  Dictionaries in Python  ***************************
 
+# Dictionaries maintain order but only after python version 3.7, before that it doesn't maintain order.
+
 dict = {"name" : "Akshay", "age" : 21, "marks" : [90, 80, 70], "another_dict" : {"Akshay" : "Player"}}
 print(1, dict)
 
