@@ -12,7 +12,8 @@ class Person:
         self.age = age
         Person.count += 1
     
-    @classmethod     
+    # cls is reference to the class itself even if we pass class object as cls it will still take reference of the class itself     
+    @classmethod
     def change_count(cls, value):   # used to change the class variable
         cls.count += value 
         cls.newcount = value    # if cls.newcount is not a class variable, then it will create a new class variable with the name newcount
