@@ -25,3 +25,5 @@ print(os.getcwd())
 f = os.popen("echo 'hello world'")   # Write linux commands in the string
 
 print(f.read())
+
+os.system('notify-send -i face-wink "Smile please"') # This will execute this command on your system. i.e. it will display a notification on your desktop
